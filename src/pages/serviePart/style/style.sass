@@ -1,0 +1,89 @@
+@import ../../../Style/MainStyle
+
+#servicePart
+    width: 100%
+    @include flex(space-around, center, column)
+
+    #btns
+        width: 75%
+        @include flex(space-around, center, row)
+    
+    #servicePartContent
+        width: 100%
+        @include flex(space-between, center, row)
+
+        #description
+            width: 30%
+            @include flex(flex-start, center, column)
+            border-radius: $mainBorderRadius
+            height: 350px
+            padding: 10px 25px
+            background: linear-gradient(163.4deg, #F8FFFD 0.37%, #CCFFFC 100.71%)
+
+            h3
+                font-size: 24px
+                font-weight: 700
+                color: $darkColorBLue
+
+            p
+                font-weight: 500
+                font-size: 14px
+                color: $darkColorBLue
+                line-height: 30px
+                height: 100%
+                @include flex(center, center, none)
+    
+    #servicePartPrice
+        height: 350px
+        width: 62%
+        padding: 10px 25px
+        background: linear-gradient(163.4deg, #F8FFFD 0.37%, #CCFFFC 100.71%)
+        border-radius: $mainBorderRadius
+        @include flex(center, center, none)
+
+        #servicePriceLineContainer
+            width: 60%
+            z-index: 100
+            @include flex(center, center, column)
+
+            .servicePriceLine
+                width: 100%
+                @include flex(center, center, none)
+
+                .line
+                    width: 100%
+                    @include flex(space-between, center, row)
+
+                    p
+                        margin: 10px 0
+                        font-weight: 500
+                        font-size: 14px
+                        color: $darkColorBLue
+
+        #imgs
+            position: absolute
+            @include flex(flex-start, flex-start, row)
+
+            img
+                position: relative
+
+            & img:nth-child(1)
+                top: 100%
+                border-radius: 0 0 0 $mainBorderRadius 
+                transform: translateY(-100%)
+
+            & img:nth-child(2)
+                width: 200px
+                left: 40%
+                    
+            & img:nth-child(3)
+                position: absolute
+                top: 100%
+                left: 100%
+                border-radius: 0 0 $mainBorderRadius 0
+                transform: translate(-100%, -100%)
+
+
+
+
+

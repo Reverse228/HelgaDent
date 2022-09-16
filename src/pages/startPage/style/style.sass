@@ -1,0 +1,51 @@
+@import ../../../Style/MainStyle
+
+#startPage
+    width: 100%
+    @include flex(center, flex-start, none)
+    
+
+    #startPageContent
+        width: 100%
+        height: 95%
+        background: linear-gradient(101.94deg, #F8EBA6 0%, #FFD8C2 100%)
+        border-radius: $mainBorderRadius
+        @include flex(center, center, none)
+
+        #content
+            z-index: 100
+            @include flex(center, center, column)
+
+            h2
+                color: $darkColorBLue
+                font-weight: 700
+                font-size: 64px
+
+            .customBtn
+                position: absolute
+                top: 80%
+
+        #imgs
+            width: 100%
+            height: 100%
+            position: absolute
+
+            & img:first-child
+                position: relative
+                left: 100%
+                border-radius: 0 $mainBorderRadius 0 0
+                transform: translateX(-100%)
+            
+            & img:nth-child(2)
+                position: absolute
+                top: 100%
+                left: 10%
+                transform: translateY(-100%)              
+
+            & img:last-child
+                position: absolute
+                top: 100%
+                left: 100%
+                transform: translate(-100%, -90%)     
+        
+        

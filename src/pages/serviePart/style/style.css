@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+#servicePart {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+#servicePart #btns {
+  width: 75%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+#servicePart #servicePartContent {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+#servicePart #servicePartContent #description {
+  width: 30%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+  height: 350px;
+  padding: 10px 25px;
+  background: linear-gradient(163.4deg, #F8FFFD 0.37%, #CCFFFC 100.71%);
+}
+#servicePart #servicePartContent #description h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #03676F;
+}
+#servicePart #servicePartContent #description p {
+  font-weight: 500;
+  font-size: 14px;
+  color: #03676F;
+  line-height: 30px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: none;
+}
+#servicePart #servicePartPrice {
+  height: 350px;
+  width: 62%;
+  padding: 10px 25px;
+  background: linear-gradient(163.4deg, #F8FFFD 0.37%, #CCFFFC 100.71%);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: none;
+}
+#servicePart #servicePartPrice #servicePriceLineContainer {
+  width: 60%;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#servicePart #servicePartPrice #servicePriceLineContainer .servicePriceLine {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: none;
+}
+#servicePart #servicePartPrice #servicePriceLineContainer .servicePriceLine .line {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+#servicePart #servicePartPrice #servicePriceLineContainer .servicePriceLine .line p {
+  margin: 10px 0;
+  font-weight: 500;
+  font-size: 14px;
+  color: #03676F;
+}
+#servicePart #servicePartPrice #imgs {
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+}
+#servicePart #servicePartPrice #imgs img {
+  position: relative;
+}
+#servicePart #servicePartPrice #imgs img:nth-child(1) {
+  top: 100%;
+  border-radius: 0 0 0 20px;
+  transform: translateY(-100%);
+}
+#servicePart #servicePartPrice #imgs img:nth-child(2) {
+  width: 200px;
+  left: 40%;
+}
+#servicePart #servicePartPrice #imgs img:nth-child(3) {
+  position: absolute;
+  top: 100%;
+  left: 100%;
+  border-radius: 0 0 20px 0;
+  transform: translate(-100%, -100%);
+}/*# sourceMappingURL=style.css.map */

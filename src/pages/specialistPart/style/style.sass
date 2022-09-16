@@ -1,0 +1,44 @@
+@import ../../../Style/MainStyle
+
+#specialistPart
+    margin-top: 50px
+    @include flex(center, center, column)
+
+    h2
+        font-weight: 700
+        font-size: 32px
+        font-family: $secondFont
+        color: $mainPurpleColor
+
+    #aboutPartContent
+        width: 100%
+        height: 50%
+        margin-bottom: 50px
+        background: linear-gradient(94.6deg, #A0BEF8 0%, #B5F0F0 100%)
+        border-radius: $mainBorderRadius
+    
+        @include flex(center, center, none)
+
+        #info
+            z-index: 100
+            width: 60%
+            font-weight: 500
+            font-size: 14px
+            color: $mainPurpleColor
+            line-height: 30px
+
+    
+        #imgs
+            position: absolute
+
+            & img:nth-child(1)
+                height: 100%
+                border-radius: $mainBorderRadius 0 0 $mainBorderRadius
+            
+            & img:nth-child(2)
+                position: absolute
+                top: 100%
+                left: 100%
+                transform: translate(-100%, -100%)
+                border-radius: 0 0 $mainBorderRadius 0
+                

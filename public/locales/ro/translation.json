@@ -1,0 +1,49 @@
+{
+    "menu": {
+        "btn1" : "Despre clinica",
+        "btn2" : "Servicii",
+        "btn3" : "Specialisti",
+        "btn4" : "Contacte"
+    },
+    "btnText": {
+        "homePage": "Aflați despre clinica HELGA DENT",
+        "aboutPart": "Aflați despre serviciile HELGA DENT",
+        "aboutMedics": "Aflați despre specialiștii HELGA DENT"
+    },
+    "content" : {
+        "startPage" : {
+            "bigText" : "O viață mai bună începe cu un zâmbet frumos"
+        },
+        "aboutPart" : {
+            "name" : "Despre clinica HELGA DENT",
+            "info" : "Clinica stomatologică „Helga Dent” SRL a fost înființată în anul 2010 și înregistrată la Camera de Înregistrări a Republicii Moldova sub numărul MD 0102889. Activități conform Clasificatorului de Activități al Republicii Moldova „Clinica Stomatologică Privată”. Clinica funcționează în conformitate cu Licența pentru tipul de activitate MMII nr. 038737 din 26 decembrie 016 emis în baza Regulamentului de organizare și funcționare a instituțiilor private de sănătate. Construit pe baza proiectului conform calculului tehnologic. Clinica este dotată cu tot ceea ce este necesar pentru realizarea activităților medicale și sanitare, constând dintr-o sală de așteptare, o cameră de odihnă pentru personal, trei camere stomatologice, o cameră pentru aparatură de sterilizare și o baie. De la deschiderea clinicii, scopul nostru a fost sa oferim servicii stomatologice de calitate, impecabile, sa lucram cu cel mai bun personal medical si sa folosim materiale de cea mai inalta calitate, iar standardul de serviciu trebuie sa fie la cel mai inalt nivel."
+        },
+        "servicePart" : {
+            "btns": {
+                "btn1" : "Consultatii",
+                "btn2" : "Odontoterapie",
+                "btn3" : "Tratament dentar",
+                "btn4" : "Tratament endodontic",
+                "btn5" : "Interventie chirurgicala"
+            },
+            "description": {
+                "desc1" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                "desc2" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                "desc3" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                "desc4" : "Tratamentul pulpitei acute în timpul tratamentului manual de canal (permeabilitate și vizualizare a canalelor pe ecran, tratament chimic și spălare a canalelor cu gel EDTA, NaOCl 3%, uscarea canalelor cu material de etanșare și gutapercă sub controlul localizator de apex. Tratamentul pulpitei acute sau parodontitei apicale cronice se realizeaza prin tratare manuala a canalului (prin patrundere direct in canale, curatare chimica a canalelor cu gel EDTA, NaOCl 3%, uscarea canalului, tratament cu o pasta care contine hidroxid de calciu).",
+                "desc5" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+            },
+            "price" : {
+                "name1" : "anestezie",
+                "name2" : "aplicarea barajului de cauciuc",
+                "name3" : "Aplicația Devit C",
+                "name4" : "aplicarea UltraCal-XS",
+                "name5" : "curățarea canalului radicular"
+            }
+        },
+        "specialistPart": {
+            "name": "Specialisti HELGA DENT",
+            "info" : "Oferim pacienților noștri servicii stomatologice (terapie, ortopedie, chirurgie, îngrijire ambulatorie) într-un mediu prietenos și ordonat și în cel mai eficient mod.O primire călduroasă, un mediu confortabil și primitor și mai ales profesionalismul și experiența medicilor stomatologi vă vor lăsa cu o impresie plăcută. Vă putem oferi tot ce aveți nevoie pentru a vă înțelege nevoile și pentru a vă oferi o evaluare completă și cuprinzătoare a sănătății dumneavoastră dentare și suntem întotdeauna disponibili pentru a vă ajuta să determinați opțiunile de tratament preferate."
+        }
+    }
+}

@@ -1,0 +1,37 @@
+@import ../../../Style/MainStyle
+
+#aboutPart
+    margin-top: 50px
+    @include flex(center, center, column)
+
+    h2
+        font-weight: 700
+        font-size: 32px
+        font-family: $secondFont
+        color: $mainColorRed
+
+    #aboutPartContent
+        width: 100%
+        height: 50%
+        margin-bottom: 50px
+        background: linear-gradient(96.35deg, #FFEFE9 0%, #FFD7CD 100%)
+        border-radius: $mainBorderRadius
+    
+        @include flex(center, center, none)
+
+        #info
+            z-index: 100
+            width: 60%
+            font-weight: 500
+            font-size: 14px
+            color: #F45556
+            line-height: 30px
+
+    
+        #imgs
+            position: absolute
+
+            img
+                border-radius: $mainBorderRadius 0 0 0
+
+    

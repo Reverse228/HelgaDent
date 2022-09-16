@@ -1,0 +1,28 @@
+@import ../../../../Style/MainStyle
+
+#languaceBtnCont
+    @include flex(center, center, none)
+
+    #languaceBtn
+        padding: 10px
+        cursor: pointer
+        background: $mainColorBLue
+        border-radius: 100px
+        margin: 0 50px
+        @include flex(center, center, none)
+
+    #languaceBtns
+        position: absolute
+        transform: translateY(60px)
+        background: rgba($mainColorBLue, 0.5)
+        border-radius: $mainBorderRadius
+        padding: 15px
+        backdrop-filter: blur(15px)
+        @include flex(center, center, row)
+
+        p
+            margin: 0 5px
+            padding: 5px 10px
+            cursor: pointer
+            color: white
+    

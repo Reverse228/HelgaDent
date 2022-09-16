@@ -1,0 +1,36 @@
+@import ../../../Style/MainStyle
+
+@keyframes customBtnArrowe
+    0%
+        transform: translateY(20px)
+
+    60% 
+        transform: translateY(30px)
+    
+    100%
+        transform: translateY(20px)
+    
+
+
+.customBtn
+    @include flex(center, center, column)
+
+    .customBtnContent
+        padding: 20px 100px
+        border-radius: 100px
+        transition: 0.2s
+        cursor: pointer
+
+        p
+            font-size: 18px
+            font-weight: 700
+            margin: 0
+            color: white
+    
+    svg
+        transform: translateY(20px)
+            
+    .active
+        animation: customBtnArrowe
+        animation-duration: 2s
+        animation-iteration-count: 5

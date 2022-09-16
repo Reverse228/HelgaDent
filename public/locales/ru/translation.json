@@ -1,0 +1,49 @@
+{
+    "menu": {
+        "btn1" : "Про клинику",
+        "btn2" : "Сервисы",
+        "btn3" : "Специалисты",
+        "btn4" : "Контакты"
+    },
+    "btnText": {
+        "homePage": "Узнай про клинику HELGA DENT",
+        "aboutPart": "Узнай про сервисы HELGA DENT",
+        "aboutMedics": "Узнай про специалистов HELGA DENT"
+    },
+    "content" : {
+        "startPage" : {
+            "bigText" : "Лучшая жизнь начинается с красивой улыбки"
+        },
+        "aboutPart" : {
+            "name" : "Про клинику HELGA DENT",
+            "info" : "Стоматологическая клиника “Helga Dent” SRL основана в 2010 году и зарегистрирована в Регистрационной палате РМ под номером MD 0102889. Деятельность согласно Классификатору видов деятельности РМ “Частная стоматологическая клиника”.  Клиника работает согласно Лицензии на вид деятельности MMII nr. 038737 от 26 декабря 016 выданной на основании Регламента организации и функционирования частных  медико-санитарных учреждений. Построена на основании проекта согласно технологическому расчету. Клиника оснащена всем необходимым для осуществления медико-санитарной деятельности состоящая из  комнаты ожидания, комнаты отдыха персонала, три  стоматологических кабинета, комната для стерилизации инвентаря и санузла. С момента открытия клиники нашей целью было оказание качественных, безупречных  стоматологических услуг, работать с  лучшими медицинскими кадрами  и использовать самые качественные материалы, а стандарт обслуживания должен быть на самом высоком уровне."
+        },
+        "servicePart" : {
+            "btns": {
+                "btn1" : "Консультации",
+                "btn2" : "Одонтотерапия",
+                "btn3" : "Лечение зубов ",
+                "btn4" : "Эндодонтическое лечение",
+                "btn5" : "Хирургическое лечение"
+            },
+            "description": {
+                "desc1" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                "desc2" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                "desc3" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                "desc4" : "Лечение острого пульпита при ручной обработке  каналов (проходимость и просмотр на экране  каналов,  химобработка и  промывка каналов EDTA  гелем,  3-х %  NaOCl, просушка каналов герметиком и гуттаперчевыми материалом  под контролем апекслокатора. Лечение острого пульпита или хронического апикального периодонтита производится ручной обработкой каналов (путем проникновения  непосредственно в каналы,  химической очисткой каналов гелем  EDTA,  3-х % NaOCl, просушка канала, обработка пастой, содержащей гидроксид кальция",
+                "desc5" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+            },
+            "price" : {
+                "name1" : "анестезия",
+                "name2" : "применение Rubber Dam",
+                "name3" : "применение Devit C",
+                "name4" : "применение UltraCal-XS",
+                "name5" : "прочистка корневого канала"
+            }
+        },
+        "specialistPart": {
+            "name": "Специалисты HELGA DENT",
+            "info": "Мы предлагаем нашим пациентам стоматологические услуги (терапия, ортопедия, хирургия, амбулаторное лечение) в дружелюбной и аккуратной обстановке и наиболее эффективным способом. Теплый прием, комфортная и привлекательная обстановка, а особенно профессионализм и опыт наших врачей стоматологов оставят у вас приятное впечатление. Мы можем предложить вам все необходимое, чтобы понять ваши потребности и провести полную и всестороннюю оценку состояния  Ваших зубов и всегда готовы помочь вам определить предпочтительные варианты лечения. "
+        }
+    }
+}

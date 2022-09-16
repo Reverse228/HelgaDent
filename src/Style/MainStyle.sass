@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
+$mainFont: 'Exo 2', sans-serif
+$secondFont: 'Montserrat', sans-serif
+
+$mainColorBLue: #05A1AD
+$darkColorBLue: #03676F
+$mainColorRed: #F45556
+$mainPurpleColor: #2E4060
+    
+$mainBg: linear-gradient(180deg, #FFFFFF 0%, #FFEFE9 100%)
+
+$contentWidth: 1840px
+
+$mainBorderRadius: 20px
+
+@mixin flex($jc, $ai, $fd)
+    display: flex
+    justify-content: $jc
+    align-items: $ai
+    flex-direction: $fd
+    
+
+@mixin setShadow($x, $y, $blur, $radius, $color)
+    -webkit-box-shadow: $x $y $blur $radius $color
+    -moz-box-shadow: $x $y $blur $radius $color
+    box-shadow: $x $y $blur $radius $color
